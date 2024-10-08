@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verify Not a Robot</title>
+</head>
+<body>
+    <div class="verify-container">
+        <h2>Verify You're Not a Robot</h2>
+        <div class="captcha-container">
+            <p id="captcha-question"></p>
+            <input type="number" id="captcha-answer" placeholder="Enter your answer">
+            <button onclick="verifyCaptcha()">Verify</button>
+            <p id="result-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
